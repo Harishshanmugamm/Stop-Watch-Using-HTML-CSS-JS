@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #282c34;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.stopwatch-container {
+    max-width: 500px;
+    margin: 50px auto;
+    text-align: center;
+}
+.lap-times {
+    margin-top: 20px;
+}
+
+.list-group-item{
+    background-color: black;
+    color: white;
+}
+.btn button {
+    font-size: 20px;
+    margin: 0 10px;
+    padding: 10px 20px;
+    background-color: #61dafb;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
